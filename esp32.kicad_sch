@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME} ${MODEL}")
-		(date "2025-07-03")
+		(date "2025-07-04")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
@@ -158,8 +158,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -30.48 25.4 0)
+			(property "Reference" "U5"
+				(at 2.1433 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -168,7 +168,7 @@
 				)
 			)
 			(property "Value" "ESP32-WROVER-E"
-				(at -30.48 22.86 0)
+				(at 2.1433 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -176,7 +176,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Espressif:ESP32-WROVER-E"
+			(property "Footprint" "FRANK:ESP32-WROVER-E"
 				(at 2.54 -33.02 0)
 				(effects
 					(font

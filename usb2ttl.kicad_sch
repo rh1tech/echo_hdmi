@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME} ${MODEL}")
-		(date "2025-07-03")
+		(date "2025-07-04")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
@@ -684,7 +684,7 @@
 					)
 				)
 			)
-			(property "Value" "CH340G"
+			(property "Value" "CH340C"
 				(at 0 -11.684 0)
 				(effects
 					(font
@@ -692,7 +692,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOIC-16_N"
+			(property "Footprint" "FRANK:SOP-16"
 				(at 0 -13.97 0)
 				(effects
 					(font

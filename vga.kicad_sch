@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME} ${MODEL}")
-		(date "2025-07-03")
+		(date "2025-07-04")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
@@ -531,7 +531,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FRANK:Crystal,_25.576MHz"
+		(symbol "FRANK:Crystal_25.576MHz"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -552,7 +552,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm"
+			(property "Footprint" "FRANK:Crystal (2520)"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -752,7 +752,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal,_25.576MHz_0_1"
+			(symbol "Crystal_25.576MHz_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -909,7 +909,7 @@
 					)
 				)
 			)
-			(symbol "Crystal,_25.576MHz_1_1"
+			(symbol "Crystal_25.576MHz_1_1"
 				(pin unspecified line
 					(at -7.62 -2.54 0)
 					(length 2.54)
@@ -1436,8 +1436,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U13"
-				(at 7.2741 -37.5412 0)
+			(property "Reference" "U8"
+				(at 8.4933 -36.83 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1446,15 +1446,16 @@
 				)
 			)
 			(property "Value" "~"
-				(at -17.78 14.605 0)
+				(at 8.4933 -39.37 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm_ThermalVias"
-				(at -0.254 -0.254 0)
+			(property "Footprint" "FRANK:QFN 48"
+				(at -17.78 14.605 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8111,7 +8112,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRANK:Crystal,_25.576MHz")
+		(lib_id "FRANK:Crystal_25.576MHz")
 		(at 87.63 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8127,7 +8128,7 @@
 				)
 			)
 		)
-		(property "Value" "24.576M"
+		(property "Value" "24.576 MHz"
 			(at 87.63 127 0)
 			(effects
 				(font
@@ -8165,7 +8166,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C9002"
+		(property "LCSC" ""
 			(at 87.63 129.54 0)
 			(effects
 				(font
@@ -9796,7 +9797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MS9288A"
 			(at 149.4633 130.81 0)
 			(effects
 				(font
